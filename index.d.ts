@@ -1,4 +1,4 @@
-
-declare module 'dynamic-title-react' {
-  export function useDocumentTitle(title: string, prevailOnUnmount?: boolean): void;
+declare module "dynamic-title-react" {
+  const useDocumentTitle: (title: string, prevailOnUnmount?: boolean) => void;
+  export default useDocumentTitle;
 }
